@@ -1,0 +1,15 @@
+{
+  "name": "discord-tickets-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para gestion de tickets con categorias configurables",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}

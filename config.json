@@ -1,0 +1,35 @@
+{
+  "panelChannelId": "1501974311693717524",
+  "supportRoleIds": [
+    "PON_AQUI_EL_ID_DEL_ROL_DE_STAFF"
+  ],
+  "panel": {
+    "title": "Sistema de Tickets",
+    "description": "Selecciona abajo la categoria que corresponda a tu consulta para abrir un ticket privado.",
+    "color": "#2b2d31",
+    "placeholder": "Selecciona una categoria..."
+  },
+  "categories": [
+    {
+      "id": "soporte",
+      "label": "Soporte General",
+      "description": "Dudas generales del servidor",
+      "emoji": "🛠️",
+      "categoryId": "PON_AQUI_EL_ID_DE_LA_CATEGORIA_DISCORD"
+    },
+    {
+      "id": "reportes",
+      "label": "Reportes de Jugador",
+      "description": "Reportar a otro usuario",
+      "emoji": "🚨",
+      "categoryId": "PON_AQUI_EL_ID_DE_LA_CATEGORIA_DISCORD"
+    },
+    {
+      "id": "whitelist",
+      "label": "Whitelist / Ingreso",
+      "description": "Dudas sobre el proceso de whitelist",
+      "emoji": "📋",
+      "categoryId": "PON_AQUI_EL_ID_DE_LA_CATEGORIA_DISCORD"
+    }
+  ]
+}
